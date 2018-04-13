@@ -12,7 +12,7 @@ class UI {
             <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block mb-4">View Profile</a>
           </div>
           <div class="col-md-9">
-            <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
+            <span class="badge badge-warning">Public Repos: ${user.public_repos}</span>
             <span class="badge badge-secondary">Public Gists: ${user.public_gists}</span>
             <span class="badge badge-success">Followers: ${user.followers}</span>
             <span class="badge badge-info">Following: ${user.following}</span>
@@ -43,7 +43,7 @@ class UI {
               <a href="${repo.html_url}" target="_blank">${repo.name}</a>
             </div>
             <div class="col-md-6">
-              <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
+              <span class="badge badge-warning">Stars: ${repo.stargazers_count}</span>
               <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
               <span class="badge badge-success">Forks: ${repo.forks_count}</span>
             </div>
